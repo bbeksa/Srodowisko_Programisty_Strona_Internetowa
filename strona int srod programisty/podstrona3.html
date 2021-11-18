@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Tabela</title>
+ <link rel="Stylesheet" type="text/css" href="podstrony.css" />
+</head>
+<body align="center">
+ <h1>Podstrona ze skryptem.</h1>
+
+<button type="button"
+onclick="document.getElementById('data').innerHTML = Date()">
+Kliknij aby wyświetlić aktualną datę.</button>
+
+<p id="data"></p>
+
+<script>
+function slimak(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "media/stoj.jpg"
+  } if (sw == 1) {
+    pic = "media/lewo.jpg"
+  } if (sw == 2) {
+    pic = "media/prawo.jpg"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="stoj.jpg" width="160" height="180">
+
+<p>
+W którą strone ma pełznąć ślimak? <br>
+<button type="button" onclick="slimak(1)">w lewo</button>
+<button type="button" onclick="slimak(2)">w prawo</button>
+</p>
+
+</body>
+</html>

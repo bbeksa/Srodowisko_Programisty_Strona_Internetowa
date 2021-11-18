@@ -1,1 +1,1 @@
-Projekt na przedmiot środowisko programisty UG 1 rok - strona internetowa
+Projekt na przedmiot środowisko programisty UG informatyka ogónoakademicka 1 rok - strona internetowa
